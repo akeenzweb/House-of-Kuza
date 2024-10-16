@@ -1,0 +1,33 @@
+.form-box input {
+    border: 1px solid #E2E2E2;
+    padding: 24px;
+    width: 100%;
+}
+
+.form-box input:focus {
+    outline: none;
+    border: 1px solid rgb(211, 151, 39);
+}
+.form-box button {
+    border: 1px solid #1b1b1b;
+    transition: all 0.5s ease;
+}
+
+.form-box button:hover {
+    background-color: #1b1b1b;
+    color: white;
+    transform: scale(1.05);
+}
+
+p {
+    cursor: pointer;
+}
+
+
+.borderr {
+    border: 2px solid green;
+}
+
+.borderrr {
+    border: 4px solid rgb(170, 8, 8);
+}

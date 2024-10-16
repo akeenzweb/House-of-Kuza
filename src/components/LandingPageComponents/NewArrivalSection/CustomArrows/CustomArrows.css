@@ -1,0 +1,16 @@
+.next-btn {
+    background-color: rgba(179, 129, 129, 0);
+    color: black;
+    border-radius: 90%;
+    /* transform: scale(3.05); */
+    opacity: 0.9;
+
+    
+    /* position: absolute;
+    top: 0;
+    right: 20px; */
+}
+
+/* .next-btn-icon {
+    transform: scale(3.05);
+} */

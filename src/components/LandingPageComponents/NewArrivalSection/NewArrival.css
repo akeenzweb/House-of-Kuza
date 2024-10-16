@@ -1,0 +1,46 @@
+/* .slider {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+.quick-add-button {
+    color: #1b1b1b;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all ease 0.5s;
+    width: 80%;
+
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+}
+
+.group:hover .hidden-button {
+    display: block;
+}
+
+.centered-element {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-box {
+    overflow: hidden;
+}
+
+
+
+
+
+.borderr {
+    border: 2px solid green;
+}
+
+.borderrr {
+    border: 4px solid rgb(170, 8, 8);
+}

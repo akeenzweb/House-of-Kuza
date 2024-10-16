@@ -1,0 +1,65 @@
+.box-section-box {
+    /* background: linear-gradient(173deg, #FFF 13.89%, rgba(199, 192, 192, 0.16) 94.23%); */
+    background: url('../../../assets/images/background-2.jpg');
+    overflow: hidden;
+    background-size: cover;
+}
+ .line-pattern {
+    left: 0;
+    z-index: 1;
+}
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-box button {
+    z-index: 1;
+    color: white;
+    background-color: #1b1b1b;
+    font-family: "Poppins", sans-serif;
+    transition: all ease 0.5s;
+    
+}
+.text-box button:hover {
+    color: #fff;
+    background: #1b1b1b;
+    transform: scale(1.05);
+    /* transition: all ease 0.5s; */
+}
+.quick-add-button {
+    color: #1b1b1b;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all ease 0.5s;
+    width: 100%;
+}
+.add-button {
+    color: #1b1b1b;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all ease 0.5s;
+    width: 100%;
+}
+.image-button {
+    bottom: 40%;
+}
+
+.indexing {
+    z-index: 9999999;
+}
+.button-scale {
+    z-index: 9999999;
+    transition: all ease 0.5s;
+    
+}
+.button-scale:hover {
+    z-index: 9999999;
+    transform: scale(1.05);
+}
+
+
+.borderr {
+    border: 2px solid green;
+}

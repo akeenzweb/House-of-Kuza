@@ -1,0 +1,53 @@
+.active-image {
+    border: 2px solid #E3B38F;
+    padding: 2px;
+}
+
+.line {
+    border-bottom: 1px solid #1B1B1B;
+    padding-bottom: 16px;
+}
+
+
+.drop-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+    transition: border-color 0.3s ease; /* Add transition for border color */
+}
+    
+.drop-answer {
+    padding: 10px 0;
+}
+
+
+.drop-enter {
+    max-height: 0;
+    opacity: 0;
+  }
+  
+.drop-enter-active {
+    max-height: 500px; /* Adjust as needed */
+    opacity: 1;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+  
+  .drop-exit {
+    max-height: 500px; /* Adjust as needed */
+    opacity: 1;
+  }
+  
+  .drop-exit-active {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+    transform: rotate(90deg);
+}

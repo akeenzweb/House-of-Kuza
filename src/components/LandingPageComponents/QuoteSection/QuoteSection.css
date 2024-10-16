@@ -1,0 +1,30 @@
+.box {
+    overflow: hidden;
+}
+.box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dark-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust the darkness here */
+    pointer-events: none; /* Ensure the overlay doesn't interfere with interactions */
+}
+
+
+
+
+.borderr {
+    border: 2px solid green;
+}
+
+.borderrr {
+    border: 4px solid rgb(170, 8, 8);
+}

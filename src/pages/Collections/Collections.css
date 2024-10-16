@@ -1,0 +1,58 @@
+.stroke {
+    border-top: 1px solid #9F9F9F;
+    border-bottom: 1px solid #9F9F9F;
+}
+
+.sort-button {
+    border: 0.5px solid #9f9f9f;
+}
+.active-grid {
+    border: 1px solid #1b1b1b;
+    padding: 4px;
+}
+.not-active-grid {
+    opacity: 0.5;
+}
+.filter {
+    display: none;
+    opacity: 1;
+}
+.collection-div {
+    position: relative;
+}
+
+.mobile-sidebar-filter {
+    position: fixed;
+    top: 9%;
+    left: 0;
+    height: 100vh;
+
+    z-index: 99;
+}
+
+
+.sidebar-enter {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.sidebar-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.sidebar-exit {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.sidebar-exit-active {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.border-g {
+    border: 2px solid green;
+}
